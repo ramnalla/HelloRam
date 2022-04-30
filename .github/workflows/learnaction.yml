@@ -12,6 +12,6 @@ jobs:
       - run: bats -v
       - run: echo hello > world.txt
       - uses: actions/upload-artifact@v3
-      with:
-        path: world.txt
+        with:
+          path: world.txt
       
