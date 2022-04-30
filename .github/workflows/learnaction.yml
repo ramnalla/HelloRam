@@ -10,7 +10,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-      - run: echo hi > world.txt
+      - run: echo hello > world.txt
       - uses: actions/upload-artifact@v3
       with:
         path: world.txt
